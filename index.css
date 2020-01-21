@@ -1,0 +1,54 @@
+body{
+    background-color: green;
+    overflow: hidden;
+    position: relative;
+}
+
+#card {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    border-radius: 25px;
+    margin-left: 33%;
+    
+}
+
+#numero{
+    font-size: 200px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    top: 50px;
+    right: 30px;
+}
+
+.heart{
+    margin-top: 10%;
+    font-size: 100px;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    left: 25px;
+    top:10px;
+}
+  .diamond{
+    margin-top: 400%;
+    font-size: 100px;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    left: 300px;
+    top:450px;
+}
+
+
+.red {
+    color: red;
+}
+
